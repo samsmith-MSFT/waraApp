@@ -71,11 +71,6 @@ function Prompt-ResourceGroups {
     return $selected
 }
 
-function Prompt-Path($prompt) {
-    Write-Host $prompt
-    Read-Host
-}
-
 function Prompt-Tags {
     $tags = @()
     do {
